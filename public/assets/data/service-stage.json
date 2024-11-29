@@ -1,0 +1,23 @@
+{
+    "environment": "production",
+    "description": "Descriptor of myfurryfriends services.",
+    "services": {
+        "resource_server_swagger_links": {
+            "ach": "https://ach.test.myfurryfriends.co.kr/swagger-ui/index.html",
+            "auth": "https://auth.test.myfurryfriends.co.kr/swagger-ui/index.html",
+            "reserve": "https://reserve.test.myfurryfriends.co.kr/swagger-ui/index.html"
+        },
+        "middleware_insight_links": {
+            "kafka": "https://kafka-ui.test.myfurryfriends.co.kr",
+            "kibana": "http://kibana.test.myfurryfriends.co.kr",
+            "grafana": "http://3.39.36.33:3000/"
+        },
+        "github_links": {
+            "ach": "https://github.com/furry-family/my-furry-friend-ach",
+            "auth": "https://github.com/furry-family/my-furry-friend-auth",
+            "reserve": "https://github.com/furry-family/my-furry-friend-reserve",
+            "gateway": "https://github.com/furry-family/my-furry-friend-gateway",
+            "admin": "https://github.com/furry-family/my-furry-friend-admin"
+        }
+    }
+}
